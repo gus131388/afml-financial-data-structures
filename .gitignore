@@ -1,0 +1,40 @@
+# ==========================================
+# AFML — Financial Data Structures
+# ==========================================
+
+# Datos originales y derivados
+data/raw/
+data/bars/
+data/etf_trick/
+data/imbalance_bars/
+data/returns/
+data/reports/
+
+# Archivos de datos
+*.parquet
+*.csv
+*.csv.gz
+*.zip
+
+# Registros
+*.log
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Configuraciones privadas
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
